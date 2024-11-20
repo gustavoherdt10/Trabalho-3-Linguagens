@@ -1,17 +1,21 @@
-TRABALHO 3 LINGUAGENS E PARADIGMAS - MÓDULOS EM PROLOG
-INSTALAÇÃO DO COMPILADOR PROLOG
+# TRABALHO 3 LINGUAGENS E PARADIGMAS - MÓDULOS EM PROLOG
+
+# INSTALAÇÃO DO COMPILADOR PROLOG
+
 Para executar os módulos Prolog, você precisará instalar o compilador SWI-Prolog. Siga os passos abaixo para instalação:
 
-No Windows:
+1. No Windows:
 Acesse o site oficial do SWI-Prolog: https://www.swi-prolog.org/Download.html.
 Baixe o instalador para Windows e siga as instruções de instalação.
 Após a instalação, você pode abrir o SWI-Prolog clicando no ícone do programa.
-No macOS:
+
+2. No macOS:
 Use o Homebrew para instalar o SWI-Prolog com o seguinte comando:
 bash
 Copiar código
 brew install swi-prolog
-No Linux:
+
+3. No Linux:
 No Ubuntu ou Debian, você pode instalar o SWI-Prolog com o seguinte comando:
 
 bash
@@ -27,7 +31,9 @@ Copiar código
 swipl
 O ambiente interativo do SWI-Prolog será iniciado se a instalação for bem-sucedida.
 
-MÓDULO 1 - Diagnóstico Médico
+# MÓDULOS PROLOG
+
+1. MÓDULO 1 - Diagnóstico Médico
 Objetivo:
 Criar um sistema especialista que sugira diagnósticos médicos com base em sintomas informados pelo usuário.
 
@@ -43,7 +49,8 @@ Inicie o diagnóstico com o predicado:
 prolog
 Copiar código
 diagnosticar.
-MÓDULO 2 - Análise de Problemas de Veículos
+
+2. MÓDULO 2 - Análise de Problemas de Veículos
 Objetivo:
 Desenvolver um sistema especialista que ajude a identificar problemas comuns em veículos com base em sintomas ou comportamentos relatados.
 
@@ -59,7 +66,8 @@ Inicie a análise do problema com o predicado:
 prolog
 Copiar código
 diagnosticar.
-MÓDULO 3 - Recomendações de Livros
+
+3. MÓDULO 3 - Recomendações de Livros
 Objetivo:
 Criar um sistema especialista que recomende livros com base em preferências de gênero e interesses do usuário.
 
@@ -75,7 +83,8 @@ Inicie a recomendação de livros com o predicado:
 prolog
 Copiar código
 recomendar_livros.
-MÓDULO 4 - Recomendação de Treinos de Academia
+
+4. MÓDULO 4 - Recomendação de Treinos de Academia
 Objetivo:
 Desenvolver um sistema especialista que sugira treinos de academia baseados em objetivos, como perder peso, ganhar massa muscular ou melhorar o condicionamento físico.
 
@@ -91,7 +100,8 @@ Inicie a recomendação de treino com o predicado:
 prolog
 Copiar código
 recomendar_treino.
-MÓDULO 5 - Análise de Investigação Criminal
+
+5. MÓDULO 5 - Análise de Investigação Criminal
 Objetivo:
 Criar um sistema especialista que auxilie na análise de casos criminais, sugerindo suspeitos ou cenários com base em evidências e testemunhos.
 
@@ -107,5 +117,6 @@ Inicie a análise do caso com o predicado:
 prolog
 Copiar código
 analisar_caso.
-AUTOR
+
+# AUTOR
 Este programa foi desenvolvido por Gustavo Herdt. @gustavoherdt10.
